@@ -1,0 +1,51 @@
+.food-recommender {
+  display: flex;
+}
+.food-recommender a {
+  color: #2d90e0;
+  text-decoration: none;
+}
+.food-result {
+  margin-top: 35px;
+}
+h3 {
+  margin-top: 40px;
+}
+
+.dropbox-select {
+  min-width: 220px !important;
+  margin-bottom: 30px !important;
+}
+.final-disease-list {
+  padding-left: 0;
+}
+.final-diseases {
+  padding: 8px;
+  background-color: #fbfffe;
+  margin-bottom: 5px;
+  list-style: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+.analyze-btn {
+  background-color: #21b484;
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.analyze-btn:disabled {
+  cursor: not-allowed;
+  background-color: #21b4838a;
+}
+
+.totalValueRow {
+  background-color: #21b484;
+}
+
+.loading {
+  margin-top: 25px;
+}
